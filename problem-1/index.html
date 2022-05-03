@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>index</title>
+  <link rel="stylesheet" href="css/index.css">
+  <script src="js/index.js"></script>
+</head>
+
+<body>
+  <h1 id="header"> Demo of Dropdown</h1>
+  <div id="navmenu">
+    <section id="navigate">
+      <nav>
+        <ul class="menu">
+          <li><a href="#">Link1</a></li>
+          <li>
+            <a href="#" id="dropdown-toggle-1" onmouseover="dropdownToggle1()"
+              onmouseleave="dropdownToggle1()">Link2</a>
+            <div id="dropdown-1" class="dropdown-content-1">
+              <a href="#">DD_Link_1_1</a>
+              <a href="#">DD_Link_1_2</a>
+              <a href="#">DD_Link_1_3</a>
+            </div>
+          </li>
+
+          <li>
+            <a href="#" id="dropdown-toggle-2" onmouseover="dropdownToggle2()"
+              onmouseleave="dropdownToggle2()">Link3</a>
+            <div id="dropdown-2" class="dropdown-content-2">
+              <a href="#">DD_Link_2_1</a>
+              <a href="#">DD_Link_2_2</a>
+              <a href="#">DD_Link_2_3</a>
+            </div>
+          </li>
+
+        </ul>
+      </nav>
+    </section>
+
+  </div>
+
+</body>
+
+</html>

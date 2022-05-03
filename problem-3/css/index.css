@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+}
+h2{
+    text-align: center;
+}
+.signin{
+    color: white;
+    width: 500px;
+    padding: 10px;
+    position: absolute;
+    font-size: 20px;
+    top: 5%;
+    left: 30%;
+    line-height: 50px;
+    border-radius: 10px;
+    background: transparent;
+    text-align: center;
+    vertical-align: middle;
+}
+input{
+    height: 30px;
+    width: 45%;
+    padding-left: 10px;
+    border-radius: 8px;
+}
+input:focus{
+    opacity: 0.35;
+    background-color: steelblue;
+}
+button{
+    width:100px;
+    height: 40px;
+    padding: 2px;
+    vertical-align: middle;
+    font-size: 16px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    border-radius: 10px;
+    background-color: rgb(67, 185, 67);
+    color: white;
+}
+#myVideo{
+    position: fixed;
+    width: auto;
+    height: auto;
+}
+#lname{
+    margin-left: 30%;
+}
